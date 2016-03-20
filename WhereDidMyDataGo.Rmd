@@ -2,7 +2,7 @@
 title: "Where is My Data Going?"
 author: "Connor MacLeod"
 date: "March 19, 2016"
-output: pdf_document
+output: html_document
 ---
 
 # How bad is it really?
@@ -249,7 +249,7 @@ Ugh.  Well that sucks.  All of the biggest packet hogs are Microsoft demanding m
 
 ## Conclusion
 
-In the age of fast and plentiful data and internet, many argue that this may not be a 'big deal', but I personally disagree.  The fact that I can't turn this off is itself unsettling, but also the fact that they are using up my network traffic, just because I use their OS, is completely ridiculous to me.  You also have to consider the privacy implications here.  Do you know how much information can be transmittes per one packet of length ~1500?  And now consider that `r sum(wins[["Length"]])`  bytes (~136 Kilobytes) were transmitted in the 5 minutes I was recording.  That is approximately 17075 words in ASCII.  A 10 page essay about your computer habits is being sent to Micrososft __Every 5 Minutes__.  Looks like I'll be using Ubuntu a lot more often.
+In the age of fast and plentiful data and internet, many argue that this may not be a 'big deal', but I personally disagree.  The fact that I can't turn this off is itself unsettling, but also the fact that they are using up my network traffic, just because I use their OS, is completely ridiculous to me.  You also have to consider the privacy implications here.  Do you know how much information can be transmitted per one packet of length ~1500?  And now consider that `r sum(wins[["Length"]])`  bytes (~136 Kilobytes) were transmitted in the 5 minutes I was recording.  That is approximately 17075 words in ASCII.  A 10 page essay about your computer habits is being sent to Micrososft __Every 5 Minutes__.  Looks like I'll be using Ubuntu a lot more often.
 
 
 
